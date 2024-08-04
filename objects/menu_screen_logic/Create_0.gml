@@ -15,6 +15,5 @@ cursor = " "
 default_time = 30 / game_get_speed(gamespeed_fps)
 time = default_time
 
-invalid_name = false
 validation_output = ""
 clicked = false
