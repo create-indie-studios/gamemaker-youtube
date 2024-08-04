@@ -17,6 +17,6 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"snd_deny","order":1,"path":"sounds/snd_deny/snd_deny.yy",},
+    {"name":"snd_fail","order":1,"path":"sounds/snd_fail/snd_fail.yy",},
   ],
 }

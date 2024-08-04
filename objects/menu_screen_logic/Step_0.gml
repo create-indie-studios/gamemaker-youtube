@@ -30,14 +30,13 @@ if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2)){
 	window_set_cursor(cr_default)	
 }	
 
-// input validation
-if (clicked) {
-	if (string_length(name) >=3 ){
-		audio_play_sound(snd_success, 0,0)
+// input validation 
+if (clicked){
+	if (string_length(name) >=3){
 		validation_output = "successful submission!"
+		audio_play_sound(snd_success, 0, 0)
 	} else{
-		audio_play_sound(snd_deny, 0,0)
 		validation_output = "name must be at least 3 characters!"
+		audio_play_sound(snd_fail, 0, 0)
 	}
 }
-// end input validation

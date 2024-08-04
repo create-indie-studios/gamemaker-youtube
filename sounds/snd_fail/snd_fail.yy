@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_success",
+  "%Name":"snd_fail",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.463356,
-  "name":"snd_success",
+  "duration":0.598594,
+  "name":"snd_fail",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_success.wav",
+  "soundFile":"snd_fail.wav",
   "type":0,
   "volume":1.0,
 }
