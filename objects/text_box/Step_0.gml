@@ -12,3 +12,19 @@ if (time < 0) {
 }
 
 time -= 1 / game_get_speed(gamespeed_fps)
+
+// logic for checking if we can write in the box or not and setting the windows cursor to
+// the right thing
+if (mouse_check_button_released(mb_left)){
+	if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2)){
+		writable = true	
+	} else {
+		writable = false	
+	}
+}
+
+if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2)){
+	window_set_cursor(cr_beam)
+} else {
+	window_set_cursor(cr_default)	
+}	
