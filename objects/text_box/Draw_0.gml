@@ -14,4 +14,7 @@ draw_set_color(c_blue)
 draw_set_font(fnt_box)
 draw_text_ext_transformed(x1 + 25, y1, name + cursor, 100, 2000, 1,1,0)
 
+clicked = draw_button_and_check_clicked("submit", true, x1+ 150, y1 + 150, fnt_box, 1, false, c_red, c_white);
+	
+draw_text_ext_transformed_color(x1 - 50, y1 + 300, validation_output, 100, 2000, .5,.5,0, c_red, c_red,c_red,c_red,1 )
 
